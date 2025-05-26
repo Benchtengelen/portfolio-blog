@@ -174,7 +174,339 @@ main .filter .line {
 
 
 
+.pagination {
+ grid-column: 1 / -1; 
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+ .pagination a{
+     display: inline-block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ .pagination .one{
+    background-color: black;
+    color: white;
+}
+ .pagination a:hover{
+    background-color: black;
+    color: white;
+}
 
+
+.main-content {
+  margin-left: 300px; 
+  padding: 20px;      
+  box-sizing: border-box;
+
+}
+
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.photos {
+  display: flex;     
+  gap: 20px;        
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+
+.photos img {
+   
+   width: 575px;
+  height: auto;
+  
+}
+
+.main-content .article{
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.main-content .article h1{
+    margin-bottom: 30px;
+}
+
+
+.main-content .w3-light-grey{
+    margin-bottom: -20px;
+}
+
+.main-content button{
+    padding: 12px 18px;
+    margin-top: 20px;
+    border: none;
+    background-color: #616161;
+    color: white;
+    margin-right: 20px;
+}
+
+.main-content .p-bar button a{
+     margin-left: 20px;
+}
+.main-content .p-bar button:hover{
+    color: black;
+    background-color: #9E9E9E;
+}
+
+
+.price {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.price-cards{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     left: 250%;
+     flex-wrap: wrap;
+}
+
+.price-cards .card{
+
+
+  flex: 1 1 300px;
+  margin: 10px;
+  height: 590px;
+  border: 1px solid gray ;
+}
+
+.price-cards .card .basic{
+     height: 100px;
+      
+     background-color: #616161;
+ 
+}
+.price-cards .card .pro{
+    height: 100px;
+    background-color: #009688;
+}
+.price-cards .card .pro p{
+       text-align: center;
+    font-size: 23px;
+    line-height: 70px;
+    color: white;
+}
+
+.price-cards .card .basic p{
+    text-align: center;
+    font-size: 23px;
+    line-height: 70px;
+    color: white;
+   
+}
+.price-cards .card .basic:hover{
+    background-color: black;
+}
+
+.price-cards .card p{
+    text-align: center;
+    font-size: 15px;
+}
+.price-cards .card .line{
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.price-cards .card .button{
+    background-color: #EFEEEA;
+    width: 100%;
+    height: 100px;
+}
+
+
+.price-cards .card .button button  {
+
+
+  background-color: #009688;
+  padding: 12px 18px;
+  width: 25%;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+
+}
+
+.contact {
+    background-color: #9E9E9E;
+    margin-left: 300px;
+    width: 100%;
+    height: 620px;
+}
+.contact h1{
+    padding: 15px;
+}
+.contact .box{
+  
+    display: flex;
+    align-items: center;
+    padding: 15px;
+ 
+  
+ 
+ 
+}
+.contact .box .card{
+       width: 400px;
+    height: 104px;
+}
+.contact .box .card p{
+    text-align: center;
+    font-size: 15px;
+}
+.contact .box .card i{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.contact .line{
+    border-bottom: 1px solid white;
+    width: 1200px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.contact form {
+    padding: 15px;
+}
+.contact form input{
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 8px 18px;
+}
+.contact button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-left: 15px;
+}
+.contact button:hover{
+    background-color: gray;
+    color: white;
+}
+.contact button a{
+   margin-left: 20px;
+}
+
+
+
+.card1{
+    background-color: #616161;
+    color: white;
+}
+.card2{
+    background-color: #009688;
+    color: white;
+}
+
+
+
+.footer {
+    width: 100%;
+    background-color: #616161;
+    height: 285px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 300px;
+    display: flex;
+  
+    
+}
+
+.footer .card{
+    width: 280px;
+    height: 230px;
+    background-color: #616161;
+    margin-top: 20px;
+    margin-right: 120px;
+    margin-left: 20px;
+   
+}
+.footer .card .head{
+    color: white;
+    font-size: 18px;
+}
+
+.footer .card .p2,
+.footer .card p{
+    color: white;
+}
+
+.footer .card5{
+   height: 250px;
+
+  
+   
+}
+.footer .card-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: -210px;
+}
+
+.footer .card-flex .line{
+    border-bottom: 1px solid white;
+}
+
+.footer .card-flex .works img{
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+}
+.footer .card-flex .works{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+.footer .card-flex .works:hover{
+    background-color: #9E9E9E;
+}
+
+.footer .card .article2 p{
+    display: inline-block;
+    padding: 1px;
+    margin-left: 10px;
+    
+}
+.footer .card .article2 .trvl{
+    background-color: black;
+    color: white;
+}
+
+.footer .card7{
+    
+}
+.footer .article2 p{
+    background-color: #9E9E9E;
+}
+
+.footer2{
+    margin-top: -20px;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+.footer2 p{
+    color: white;
+    margin-left: 850px;
+    line-height: 70px;
+}
 
 
 
@@ -225,6 +557,98 @@ main .filter .line {
         display: none;
     }
 
+  }
+
+  @media screen and (max-width:600px) {
+     .grid-container {
+        grid-template-columns: 1fr;
+        margin-left: 0; 
   
-    
+}
+
+.pagination {
+
+    left: 0px;
+}
+
+
+
+  }
+
+
+
+
+  @media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .photos {
+  display: flex;     
+  gap: 10px;        
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .photos img{
+   width: 540px;
+   height: auto;
+  }
+
+  .contact {
+    background-color: #9E9E9E;
+    margin-left: 0px;
+    width: 100%;
+    height: 800px;
+}
+
+.contact .box{
+  
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+  
+ 
+ 
+}
+
+.footer {
+    width: 100%;
+    background-color: #616161;
+    height: 790px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 0px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+
+.footer2{
+  
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+.footer2 p{
+    color: white;
+    margin-left: 150px;
+   
+    line-height: 80px;
+}
+
+.footer .card7{
+     height: 220px;
+}
+ 
+
 }
